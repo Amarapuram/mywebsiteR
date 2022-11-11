@@ -1,0 +1,173 @@
+body {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+.big-heading {
+  opacity: .4;
+  font-weight: lighter;
+  margin-bottom: 0px;
+  padding-top: 2rem;
+}
+
+.paragraph {
+  opacity: .3;
+  font-size: 15px;
+  padding-bottom: 3rem;
+}
+
+.main-div {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.Supervisor {
+  box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  border-width: 2px;
+  border-top: 3px solid #33F3FF;
+  width: 300px;
+  margin: auto;
+  height: 200px;
+  position: relative;
+  bottom: -7rem;
+  left: 10.5rem;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.Team-Builder {
+  box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  border-width: 2px;
+  border-top: 3px solid #FF335E;
+  width: 300px;
+  margin: auto;
+  height: 200px;
+  position: absolute;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.Karma {
+  box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  border-width: 2px;
+  border-top: 3px solid #FFC133;
+  width: 300px;
+  margin: auto;
+  height: 200px;
+  position: relative;
+  bottom: -14rem;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.Calculator {
+  box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  border-width: 2px;
+  border-top: 3px solid #335BFF;
+  width: 300px;
+  margin: auto;
+  height: 200px;
+  position: relative;
+  bottom: -7rem;
+  right: 10.5rem;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.Team-span {
+  opacity: 0.5;
+  font-size: 15px;
+}
+
+.super-span {
+  opacity: 0.5;
+}
+
+.k-span {
+  opacity: 0.5;
+}
+
+.cal-span {
+  opacity: 0.5;
+}
+
+.image {
+  float: right;
+  padding-right: 2rem;
+  padding-top: 1.5rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 3px;
+  width: 100%;
+  left: 0;
+}
+
+@media only screen and (max-width:768px) {
+  .main-div {
+    display: block;
+  }
+
+  .Supervisor {
+    position: static;
+    align-items: center;
+    margin-right: 3.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .Team-Builder {
+    position: static;
+    align-items: center;
+    margin-right: 3.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .Karma {
+    position: static;
+    align-items: center;
+    margin-right: 3.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .Calculator {
+    position: static;
+    align-items: center;
+    margin-right: 3.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .paragraph {
+    /* text-align: center; */
+    padding-left: 1rem;
+    max-width: 20rem;
+    font-size: 15px;
+  }
+
+  .big-heading {
+    max-width: 22rem;
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    max-width: 22rem;
+    font-size: 1.5rem;
+  }
+  .attribution{
+    position: relative;
+    max-width: 22rem;
+
+  }
+}
